@@ -10,7 +10,7 @@ This project applies time series analysis techniques using R to study Algeria's 
 ✅ Decomposition of time series into components (trend, seasonality, residual)
 ✅ ACF & PACF analysis
 ✅ Forecasting using models like ARIMA
-✅ Evaluation of model performance using error metrics
+✅ Evaluation of model performance using error metrics 
 
 ## 📦 Requirements
 - tidyverse
@@ -29,12 +29,12 @@ This project applies time series analysis techniques using R to study Algeria's 
 └── README.md
 ```
 ## 🔧 Installation
-Clone the repository:
+**Clone the repository:**
 ``` bash
 git clone https://github.com/MaissaLkl/Currency-Exchange-Forecast-Time-Series.git
 ```
 Open the .ipynb file in R-compatible Jupyter or RStudio with IRkernel support.
-Install required packages in R:
+**Install required packages in R:**
 ```bash
 install.packages(c("tidyverse", "lubridate", "zoo", "forecast", "tseries", "ggplot2", "dplyr"))
 ```
@@ -63,7 +63,6 @@ install.packages(c("tidyverse", "lubridate", "zoo", "forecast", "tseries", "ggpl
 
 ### 🧠 Models
 #### 🎯 ARIMA (AutoRegressive Integrated Moving Average)
-
 - Handles non-stationary series with differencing
 - Uses ACF/PACF to select p, d, q parameters
 - Evaluated using residual diagnostics and forecast error metrics
@@ -89,6 +88,7 @@ install.packages(c("tidyverse", "lubridate", "zoo", "forecast", "tseries", "ggpl
 
 ## 🙌 Acknowledgments
 **Dataset:** 'currency_exchange_rates_02-01-1995_-_02-05-2018' via https://drive.google.com/file/d/1EI32JPCMIZseDKoWcSm9IxSIh2VkPFtY/view?usp=sharing
+
 Notebook developed as part of a Time Series Analysis course project.
 
 💡 *"Forecasting currency movement through time – one pattern at a time."*
